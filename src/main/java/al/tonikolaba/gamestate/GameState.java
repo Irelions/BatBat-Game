@@ -10,8 +10,8 @@ import java.util.logging.Level;
 import javax.imageio.ImageIO;
 
 import al.tonikolaba.audio.JukeBox;
-import al.tonikolaba.entity.enemies.Enemy;
-import al.tonikolaba.entity.enemies.Enemy.EnemyType;
+import al.tonikolaba.entity.enemies.*;
+
 import al.tonikolaba.entity.EnemyProjectile;
 import al.tonikolaba.entity.EnergyParticle;
 import al.tonikolaba.entity.Explosion;
@@ -19,13 +19,8 @@ import al.tonikolaba.entity.HUD;
 import al.tonikolaba.entity.Player;
 import al.tonikolaba.entity.PlayerSave;
 import al.tonikolaba.entity.Portal;
-import al.tonikolaba.entity.enemies.Spirit;
 import al.tonikolaba.entity.Teleport;
 import al.tonikolaba.entity.Title;
-import al.tonikolaba.entity.enemies.RedEnergy;
-import al.tonikolaba.entity.enemies.Ufo;
-import al.tonikolaba.entity.enemies.XhelBat;
-import al.tonikolaba.entity.enemies.Zogu;
 import al.tonikolaba.handlers.Keys;
 import al.tonikolaba.handlers.LoggingHelper;
 import al.tonikolaba.main.GamePanel;

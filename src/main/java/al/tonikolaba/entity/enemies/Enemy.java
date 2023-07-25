@@ -53,9 +53,4 @@ public class Enemy extends MapObject {
     public void update() {
         throw new IllegalStateException("Needs to be overwritten");
     }
-
-    public enum EnemyType {
-        RED_ENERGY, UFO, XHELBAT, ZOGU, SPIRIT
-    }
-
 }

@@ -1,6 +1,7 @@
 package al.tonikolaba.gamestate;
 
-import al.tonikolaba.entity.enemies.Enemy.EnemyType;
+
+import al.tonikolaba.entity.enemies.EnemyType;
 import al.tonikolaba.tilemap.Background;
 
 /**
